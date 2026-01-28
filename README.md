@@ -2,8 +2,6 @@
 ![PyPI - Downloads](https://img.shields.io/pypi/dd/pycogat) ![PyPI - Version](https://img.shields.io/pypi/v/pycogat) ![Static Badge](https://img.shields.io/badge/python-3.8-blue)
 
 
-
-
 # pycogat
 Python package that splits CogAT score report PDF export into single page PDFs and labels output by the ID extracted from the PDF.
 
@@ -22,7 +20,7 @@ cogat_split('C:\Documents\Reports\cogat_score_report.pdf',6)
 >[!NOTE]
 >pycogat can search for IDs on the CogAT score reports based on their length, in the case above the length of the ID is 6.
 
-#### Test Report
+#### pytest report
 
 *Report generated on 27-Jan-2026 at 20:56:35 by [pytest-md]*
 
