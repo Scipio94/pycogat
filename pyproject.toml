@@ -8,7 +8,9 @@ version = "0.1.0"
 description = "Splits CogAT score report PDF export into single page PDFs and labels output by the ID extracted from the PDF."
 readme = "README.md"
 requires-python = ">=3.10"
-license = "MIT"
+
+[project.license]
+text = "MIT"
 
 authors = [
   { name = "Tyrone O'Garro Jr", email = "t.ogarro94@gmail.com" }
