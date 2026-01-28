@@ -3,7 +3,7 @@
 
 
 # pycogat
-Python package that splits CogAT score report PDF export into single page PDFs and labels output by the ID extracted from the PDF.
+Python package that splits CogAT score report PDF export into single page PDFs and labels output by the ID extracted from the PDF. To report a bug, submit and idea, or for Q&A submit an [issue](https://github.com/Scipio94/pycogat/issues/new/choose).
 
 ## Installation
 ~~~ python
