@@ -1,5 +1,5 @@
-blank_issues_enabled: true
+blank_issues_enabled: false
 contact_links:
-  - name: Troubleshooting
+  - name: Start Discussion
   url: https://github.com/Scipio94/pycogat/discussions
   about: Use 'Discussions' to request assistance, ask questions, etc.
