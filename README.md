@@ -1,5 +1,5 @@
 # Project Description
-![PyPI - Downloads](https://img.shields.io/pypi/dd/pycogat) ![PyPI - Version](https://img.shields.io/pypi/v/pycogat) ![Static Badge](https://img.shields.io/badge/python-3.8-blue)
+![PyPI - Downloads](https://img.shields.io/pypi/dd/pycogat) ![PyPI - Version](https://img.shields.io/pypi/v/pycogat) ![Static Badge](https://img.shields.io/badge/python-3.8-blue) [![Run tests](https://github.com/Scipio94/pycogat/actions/workflows/tests.yml/badge.svg)](https://github.com/Scipio94/pycogat/actions/workflows/tests.yml)
 
 
 # pycogat
