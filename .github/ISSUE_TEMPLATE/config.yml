@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
   - name: Start Discussion
-  url: https://github.com/Scipio94/pycogat/discussions
+  url: https://github.com/Scipio94/pycogat/issues/new/choose
   about: Use 'Discussions' to request assistance, ask questions, etc.
