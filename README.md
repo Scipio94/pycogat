@@ -21,3 +21,15 @@ cogat_split('C:\Documents\Reports\cogat_score_report.pdf',6)
 ~~~
 >[!NOTE]
 >pycogat can search for IDs on the CogAT score reports based on their length, in the case above the length of the ID is 6.
+
+#### Test Report
+
+*Report generated on 27-Jan-2026 at 20:56:35 by [pytest-md]*
+
+[pytest-md]: https://github.com/hackebrot/pytest-md
+
+#### Summary
+
+1 tests ran in 0.63 seconds
+
+- 1 passed
