@@ -29,5 +29,5 @@ jobs:
       - name: Install package (editable)
         run: pip install -e .[dev]
 
-      - name: Run pytest
-        run: pytest
+      - name: Run pytest on tests folder
+        run: pytest tests
