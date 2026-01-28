@@ -34,7 +34,11 @@ dependencies = [
 [project.optional-dependencies]
 test = [
   "pytest>=7.0.0",
-  "pytest-cov"
+  "pytest-cov",
+  "pandas>=2.0",
+  "pdfplumber>=0.11.9",
+  "pypdf>=3.9.1",
+  "numpy>=1.24"
 ]
 
 [tool.setuptools.packages.find]
