@@ -27,7 +27,7 @@ jobs:
         run: python -m pip install --upgrade pip
 
       - name: Install package (editable)
-        run: pip install -e .[dev]
+        run: pip install -e .[test]
 
       - name: Run pytest on tests folder
         run: pytest tests
