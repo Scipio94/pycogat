@@ -17,5 +17,3 @@ from pycogat.cogat import cogat_split
 
 cogat_split('C:\Documents\Reports\cogat_score_report.pdf',6)
 ~~~
->[!NOTE]
->pycogat can search for IDs on the CogAT score reports based on their length, in the case above the length of the ID is 6.
