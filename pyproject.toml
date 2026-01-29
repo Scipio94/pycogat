@@ -4,13 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pycogat"
-version = "v0.2.1"
+version = "0.2.2"
 description = "Splits CogAT score report PDF export into single page PDFs and labels output by the ID extracted from the PDF."
 readme = "README.md"
 requires-python = ">=3.10"
 
-[project.license]
-text = "MIT"
+license = "MIT"
 
 authors = [
   { name = "Tyrone O'Garro Jr", email = "t.ogarro94@gmail.com" }
