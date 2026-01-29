@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pycogat"
-version = "v0.1.0"
+version = "v0.2.0"
 description = "Splits CogAT score report PDF export into single page PDFs and labels output by the ID extracted from the PDF."
 readme = "README.md"
 requires-python = ">=3.10"
