@@ -4,6 +4,7 @@ from pypdf import PdfReader,PdfWriter
 import string as str
 import pandas as pd
 import numpy as np
+from tqdm import tqdm
 
 # CogAT Split 
 def cogat_split(pdf_object, id_char):
