@@ -4,6 +4,7 @@ from pypdf import PdfReader,PdfWriter
 import string as str
 import pandas as pd
 import numpy as np
+from tqdm import tqdm
 
 # CogAT Split 
 def cogat_split(pdf_object, id_char):
@@ -42,7 +43,7 @@ def cogat_split(pdf_object, id_char):
     qa = page_len == list_len #--> QA check to ensure that if there is an error, the for loop does not run
     if qa == True: #--> conditional statement
     
-            for page_num in range(len(reader.pages)): #--> range of page numbers
+            for page_num in tqdm(range(len(reader.pages)), desc = 'Splitting CogAT Profile Narratives'): #--> range of page numbers
                 writer = PdfWriter() #--> resets the writer object in each iteration of the loop
                 page_name = student_id[page_num] #--> returns other id based on indexing of the student_id list
                 writer.add_page(reader.pages[page_num]) #--> adding pages to writer based on page number
@@ -51,4 +52,4 @@ def cogat_split(pdf_object, id_char):
                 
                 count += 1 
     
-            print(f'{count} PDF documents were successfully created')  #--> print statement to confirm that documents were created        
+            print(f'{count} PDF documents were successfully created')  #--> print statement to confirm that documents were created
